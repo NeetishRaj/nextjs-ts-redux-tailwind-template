@@ -2,8 +2,12 @@
 
 ## stages
  1. Basic Nextjs App with Typescript, Redux and simple Navbar, Sidebar and Main content
+ ```sh
+git checkout b6e57ea0cd25375105f265fc06d5feaf234b7354
  ```
-
+ 2. Redux support
+ ```sh
+ git checkout 
  ```
 
 ## Getting Started
@@ -24,6 +28,12 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+
+## Learning resources
+
+1. Redux tool kit: https://redux-toolkit.js.org/api/createSlice
+
+2. Understnad the new `extraReducers` builder callback notation: https://redux-toolkit.js.org/api/createSlice#the-extrareducers-builder-callback-notation
 
 ## Deploy on Vercel
 

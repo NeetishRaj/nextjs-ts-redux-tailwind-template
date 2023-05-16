@@ -1,10 +1,15 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import { useSelector } from "react-redux";
+import { selectAuthState } from "@/redux/slices/authSlice";
 
 type Props = {};
 
 const Navbar = (props: Props) => {
+  const authState = useSelector(selectAuthState);
+
+  
   return (
     <div
       className="fixed top-0 w-full bg-slate-800 text-white"
@@ -21,7 +26,9 @@ const Navbar = (props: Props) => {
           <p>MyApp</p>
         </Link>
         <div>
-          Sign In
+          {
+            authState ? 'Sign Out': 'Sign In'
+          }
         </div>
       </div>
     </div>

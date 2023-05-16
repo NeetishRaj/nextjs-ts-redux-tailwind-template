@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
 import { ReactNode } from "react";
 import Meta from "./meta";
+import Sidebar from "./sidebar";
+import Navbar from "./navbar";
 
 export default function Layout({
   meta,
@@ -17,7 +17,10 @@ export default function Layout({
   return (
     <>
       <Meta {...meta} />
-      <main className="flex w-full flex-col items-center justify-center py-32">
+      <Navbar />
+      <Sidebar />
+
+      <main className="bg-slate-200 flex w-full flex-col items-center justify-center py-32">
         {children}
       </main>
     </>

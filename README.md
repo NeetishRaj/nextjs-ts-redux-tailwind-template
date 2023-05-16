@@ -3,12 +3,13 @@
 ## stages
  1. Basic Nextjs App with Typescript, Redux and simple Navbar, Sidebar and Main content
  ```sh
-git checkout b6e57ea0cd25375105f265fc06d5feaf234b7354
+ git checkout b6e57ea0cd25375105f265fc06d5feaf234b7354
  ```
  2. Redux support
  ```sh
- git checkout 
+ git checkout 797d8165f1fa7ed38e56d85b681a67dabc1a3936
  ```
+
 
 ## Getting Started
 
